@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/Contact.css';
 import download from '../Images/download.gif';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+import { FaMapMarkerAlt, FaInbox, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -21,10 +22,11 @@ const Contact = () => {
             </p>
           </span>
           <span>
-            <i className='fa fa-phone'><FaPhoneAlt /> </i>
-            <h1>PHONE NUMBER</h1>
+            <i className='fa fa-inbox'><FaInbox /> </i>
+            <h1>Social Networks</h1>
             <p>
-              +91 9626037486
+              <Link to="https://www.linkedin.com/in/chireshtha-v-4186302a1" className="fa fa-linkedin" target="_blank"><FaLinkedin /></Link>
+              <Link to="https://github.com/Chireshtha?tab=repositories" className="fa fa-github" target="_blank"><FaGithub /></Link>
             </p>
           </span>
           <span>
