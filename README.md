@@ -1,54 +1,60 @@
-Chireshtha's Portfolio
+# Chireshtha's Portfolio
 
 Welcome to my professional portfolio website! This repository contains the source code for my portfolio, showcasing my skills, projects, and contact information.
 
-##Table of Contents
-[About](#about)
-Contact
-Home
-Projects
-Resume
-Hosting
-Installation
-Technologies Used
-License
-About
+## Table of Contents
+
+- [About](#about)
+- [Contact](#contact)
+- [Home](#home)
+- [Projects](#projects)
+- [Resume](#resume)
+- [Hosting](#hosting)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+
+## About
+
 Learn about my professional background and skills.
 
-Contact
+## Contact
+
 Get in touch with me via email, phone, or social media.
 
-Home
+## Home
+
 The landing page with a dynamic job title effect and social media links.
 
-Projects
+## Projects
+
 Highlights of my notable projects with GitHub links.
 
-Resume
+## Resume
+
 View and download my resume for more details.
 
-Hosting
-This website is hosted on GitHub Pages, ensuring easy access and global visibility.
+## Hosting
 
-Installation
+This website is hosted on [GitHub Pages](https://chireshtha.github.io/Portfolio/), ensuring easy access and global visibility.
+
+## Installation
+
 To run this project locally:
+1. Clone the repository.
+2. Install dependencies.
+3. Run the project.
 
-Clone the repository.
-Install dependencies.
-Run the project.
-Technologies Used
-React.js
-Bootstrap
-React Router
-Font Awesome
-CSS
-License
+## Technologies Used
+
+- React.js
+- Bootstrap
+- React Router
+- Font Awesome
+- CSS
+
+## License
+
 This project is licensed under the MIT License.
 
 Feel free to explore the codebase and reach out for collaboration opportunities!
-
-
-
-
-
-
