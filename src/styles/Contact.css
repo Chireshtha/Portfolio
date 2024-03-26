@@ -58,7 +58,7 @@ body{
 .container-contact1 .container2 .fa-map-marker{
     color: #0693e3;
 }
-.container-contact1 .container2 .fa-phone{
+.container-contact1 .container2 .fa-inbox{
     color: #00d084;
 }
 .container-contact1 .container2 .fa-envelope{
@@ -75,6 +75,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 23px;
     padding-bottom: 15px;
+}
+.container-contact1 .container2 span p .fa{
+    font-size: 35px;
+    margin-right: 20px;
+    padding:0 5px 5px 5px;
+    border-radius: 10px;
 }
 .container-contact2{
     width: 100%;
