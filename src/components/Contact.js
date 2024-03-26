@@ -23,7 +23,7 @@ const Contact = () => {
           </span>
           <span>
             <i className='fa fa-inbox'><FaInbox /> </i>
-            <h1>Social Networks</h1>
+            <h1>Social Network</h1>
             <p>
               <Link to="https://www.linkedin.com/in/chireshtha-v-4186302a1" className="fa fa-linkedin" target="_blank"><FaLinkedin /></Link>
               <Link to="https://github.com/Chireshtha?tab=repositories" className="fa fa-github" target="_blank"><FaGithub /></Link>
