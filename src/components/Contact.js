@@ -2,7 +2,11 @@ import React from 'react';
 import '../styles/Contact.css';
 import download from '../Images/download.gif';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInbox } from 'react-icons/fa'
+=======
+import { FaMapMarkerAlt, FaInbox, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
+>>>>>>> 17a5e312e0f44d9de9a75205570c0b8506b85e77
 
 const Contact = () => {
   return (
@@ -26,6 +30,10 @@ const Contact = () => {
             <h1>Social Network</h1>
             <p>
               <Link to="https://www.linkedin.com/in/chireshtha-v-4186302a1" className="fa fa-linkedin" target="_blank"><FaLinkedin /></Link>
+<<<<<<< HEAD
+=======
+              <Link to="https://github.com/Chireshtha?tab=repositories" className="fa fa-github" target="_blank"><FaGithub /></Link>
+>>>>>>> 17a5e312e0f44d9de9a75205570c0b8506b85e77
             </p>
           </span>
           <span>
