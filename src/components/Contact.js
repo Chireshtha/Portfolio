@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles/Contact.css';
 import download from '../Images/download.gif';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedin, FaGithub, FaInbox } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -21,10 +22,10 @@ const Contact = () => {
             </p>
           </span>
           <span>
-            <i className='fa fa-phone'><FaPhoneAlt /> </i>
-            <h1>PHONE NUMBER</h1>
+            <i className='fa fa-inbox'><FaInbox /> </i>
+            <h1>Social Network</h1>
             <p>
-              +91 9626037486
+              <Link to="https://www.linkedin.com/in/chireshtha-v-4186302a1" className="fa fa-linkedin" target="_blank"><FaLinkedin /></Link>
             </p>
           </span>
           <span>
@@ -43,16 +44,16 @@ const Contact = () => {
             Welcome To Our Website...
           </h2>
           <p>
-          If you're interested in my profile and would like to discuss it in more detail, please contact me.
+            If you're interested in my profile and would like to discuss it in more detail, please contact me.
           </p>
-        
+
           <div className="contacts">
             <a href="https://github.com/Chireshtha?tab=repositories" className="fa fa-github" target="_blank" rel="noreferrer"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/chireshtha-v-4186302a1" className="fa fa-linkedin" target="_blank" rel="noreferrer"><FaLinkedin /></a>
           </div>
         </div>
         <div className='container3'>
-          <img src={download} alt='loading...'/>
+          <img src={download} alt='loading...' />
         </div>
       </div>
     </div>
