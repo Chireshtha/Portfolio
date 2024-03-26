@@ -1,0 +1,88 @@
+
+.home_page{
+    background-color: #011127;
+    width: 100%;
+    display: flex;
+    height: 50rem;
+    overflow: hidden;
+}
+.home_page .content1{
+    width: 50%;
+    display: flexbox;
+}
+.home_page .content1 .welcome{
+    color: #fff;
+    margin-left: 20%;
+    margin-top: 200px;
+    font-size: 3.5rem;
+    margin-bottom: 70px;
+}
+
+.home_page .content1 .name{
+    color: #fff;
+    margin-left: 20%;
+}
+.home_page .content1 .title{
+    color: #fff;
+    margin-left: 20%;
+}
+.home_page .content1 .title span{
+    color: rgba(6, 147, 227, 1);
+}
+
+.home_page .content2{
+    width: 50%;
+    display: flexbox;
+}
+.home_page .content2 img{
+    width: 80%;
+    height: 80%;
+    margin: 100px 100px;
+}
+
+.home_page .content1 .social_media{
+    width: 10rem;
+    height: 5rem;
+    display: flexbox;
+    margin-left: 12rem;
+}
+
+.home_page .content1 .fa {
+    font-size: 35px;
+    margin-right: 20px;
+    padding:0 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.home_page .content1 .fa-linkedin{
+    font-size: 35px;
+}
+@media (max-width: 600px){
+    .home_page {
+        flex-direction: column; /* Change flex direction to stack content vertically */
+        height: auto; /* Remove fixed height */
+    }
+
+    .home_page .content1,
+    .home_page .content2 {
+        width: 100%; /* Set width to 100% for full width on mobile */
+    }
+
+    .home_page .content1 .welcome {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .home_page .content1 .name {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .home_page .content1 .title {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+    .home_page .content1 .social_media{
+       margin-left: 8rem;
+     }
+     .home_page .content2 img{
+        margin: 0;
+    }
+}
