@@ -9,8 +9,6 @@ Welcome to my professional portfolio website! This repository contains the sourc
 - [Home](#home)
 - [Projects](#projects)
 - [Resume](#resume)
-- [Hosting](#hosting)
-- [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Deployment Link](#deployment-link)
 
@@ -34,17 +32,6 @@ Highlights of my notable projects with GitHub links.
 
 View and download my resume for more details.
 
-## Hosting
-
-This website is hosted on [GitHub Pages](https://chireshtha.github.io/Portfolio/), ensuring easy access and global visibility.
-
-## Installation
-
-To run this project locally:
-1. Clone the repository.
-2. Install dependencies.
-3. Run the project.
-
 ## Technologies Used
 
 - React.js
@@ -54,6 +41,7 @@ To run this project locally:
 - CSS
 
 ## Deployment Link
-You can view my resume portfolio
 
-Deploym
+You can view the my resume portfolio
+
+git deployment link <[repository-url]( https://chireshtha.github.io/Portfolio/ )>  
