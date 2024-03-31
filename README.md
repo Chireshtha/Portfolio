@@ -12,7 +12,7 @@ Welcome to my professional portfolio website! This repository contains the sourc
 - [Hosting](#hosting)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
-- [License](#license)
+- [Deployment Link](#deployment-link)
 
 ## About
 
@@ -53,8 +53,7 @@ To run this project locally:
 - Font Awesome
 - CSS
 
-## License
+## Deployment Link
+You can view my resume portfolio
 
-This project is licensed under the MIT License.
-
-Feel free to explore the codebase and reach out for collaboration opportunities!
+Deploym
