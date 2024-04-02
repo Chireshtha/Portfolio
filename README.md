@@ -42,6 +42,6 @@ View and download my resume for more details.
 
 ## Deployment Link
 
-You can view the project visual
+**You can view the project visual**
 
 git deployment link <[repository-url]( https://chireshtha.github.io/Portfolio/ )>  
