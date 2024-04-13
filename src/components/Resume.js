@@ -11,7 +11,7 @@ const Resume = () => {
       </div>
       <div className='resume_content'>
         <h2>You can view my resume</h2>
-        <button className='btn btn-primary'><Link to='https://drive.google.com/file/d/1tadbp_FOj2yIUjThuZKvb611KMejAX9F/view?usp=drivesdk' target='blank'><span>Download</span></Link></button>
+        <button className='btn btn-primary'><Link to='https://drive.google.com/file/d/1tciOezhXwJuTfk6araSkdOl7XZcWHIRz/view?usp=drivesdk' target='blank'><span>Download</span></Link></button>
       </div>
     </div>
   )
