@@ -8,7 +8,12 @@
 }
 .home_page .content1{
     width: 50%;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateX(-200px);
+    animation: slideIn 0.8s forwards;
+    animation-delay: 1s;
 }
 .home_page .content1 .welcome{
     color: #fff;
@@ -32,7 +37,12 @@
 
 .home_page .content2{
     width: 50%;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateX(200px);
+    animation: slideIn 0.8s forwards;
+    animation-delay: 1s;
 }
 .home_page .content2 img{
     width: 80%;
@@ -43,46 +53,63 @@
 .home_page .content1 .social_media{
     width: 10rem;
     height: 5rem;
-    display: flexbox;
+    display: flex;
     margin-left: 12rem;
 }
 
 .home_page .content1 .fa {
-    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
     margin-right: 20px;
-    padding:0 5px 5px 5px;
+    padding: 0 10px 0 10px;
     border-radius: 10px;
 }
 
 .home_page .content1 .fa-linkedin{
-    font-size: 35px;
+    font-size: 30px;
 }
+
+@keyframes slideIn{
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @media (max-width: 600px){
     .home_page {
-        flex-direction: column; /* Change flex direction to stack content vertically */
-        height: auto; /* Remove fixed height */
+        flex-direction: column; 
+        height: auto; 
     }
 
     .home_page .content1,
     .home_page .content2 {
-        width: 100%; /* Set width to 100% for full width on mobile */
+        width: 100%; 
+        animation: slideInmobile 1s forwards;
     }
 
     .home_page .content1 .welcome {
-        font-size: 2rem; /* Adjust font size for smaller screens */
+        font-size: 2rem;
     }
 
     .home_page .content1 .name {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem; 
     }
 
     .home_page .content1 .title {
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        font-size: 1rem;
     }
     .home_page .content1 .social_media{
        margin-left: 8rem;
      }
      .home_page .content2 img{
         margin: 0;
+    }
+}
+@keyframes slideInmobile{
+    to{
+        opacity: 1;
+        transform: translateX(0);
     }
 }

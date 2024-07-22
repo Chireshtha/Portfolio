@@ -1,14 +1,41 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/About.css';
 import aboutMeImage from '../Images/Aboutme.jpeg';
 const About = () => {
 
+  const [isVisible1, setIsVisible1] = useState(false);
+  const [isVisible2, setIsVisible2] = useState(false);
+
+
+  const handleScroll = () => {
+    const contentTop1 = document.querySelector('.about_content1').getBoundingClientRect().top;
+    const contentTop2 = document.querySelector('.about_content2').getBoundingClientRect().top;
+    if(contentTop1 < window.innerHeight / 1.5){
+      setIsVisible1(true);
+    }
+    else{
+      setIsVisible1(false)
+    }
+
+    if(contentTop2 < window.innerHeight / 1.5){
+      setIsVisible2(true);
+    }
+    else{
+      setIsVisible2(false)
+    }
+  };
+  useEffect(()=>{
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+    return()=>window.removeEventListener('scroll', handleScroll);
+  },[])
+
   return (
-    <div className='about_page' id='about'>
-      <div className='about_content1'>
+    <div className= 'about_page' id='about'>
+      <div className= {`about_content1 ${isVisible1 ? 'visible': ''}`}>
         <img src={aboutMeImage} alt='loading...' />
       </div>
-      <div className='about_content2'>
+      <div className={`about_content2 ${isVisible2 ? 'visible': ''}`}>
         <h1>About Me</h1>
         <h2>I'm Chireshtha, a results-driven Senior Scientific Analyst and Consultant with over 5 years of project 
           management experience. I'm currently looking to transition from a Non-IT to an IT role.<br /><br />
