@@ -37,7 +37,7 @@ const Resume = () => {
       </div>
       <div className= {`resume_content ${isVisible4? 'visible': '' }`} >
         <h2>You can view my resume</h2>
-        <button className='btn btn-primary'><Link to='https://drive.google.com/file/d/1DuHt9PjZBzQkXCdosWUOwUZTfTaZssrG/view?usp=drivesdk' target='blank' className='text-decoration-none'><span>Download</span></Link></button>
+        <button className='btn btn-primary'><Link to='https://drive.google.com/file/d/1EwKPdPsa9xLLZiOn6BKxSjZGwAkUXVGW/view?usp=drive_link' target='blank' className='text-decoration-none'><span>Download</span></Link></button>
       </div>
     </div>
   )
