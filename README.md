@@ -44,4 +44,4 @@ View and download my resume for more details.
 
 **You can view the project visual**
 
-git deployment link <[repository-url]( https://chireshtha.github.io/Portfolio/ )>  
+git deployment link [https://chireshtha-portfolio.netlify.app/](https://chireshtha-portfolio.netlify.app/)  
